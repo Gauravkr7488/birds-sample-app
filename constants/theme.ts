@@ -51,3 +51,8 @@ export const Fonts = Platform.select({
     mono: "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
   },
 });
+
+
+
+// web color #242729 dark
+// web color #242729 light
