@@ -3,16 +3,18 @@ import "./global.css";
 import { PaperProvider } from "react-native-paper";
 import {
   SafeAreaProvider,
-  SafeAreaView,
+  // SafeAreaView,
   // useSafeAreaInsets,
 } from "react-native-safe-area-context";
 
 const RootLayout = () => {
   return (
     <SafeAreaProvider>
-        <PaperProvider>
-          <Stack />
-        </PaperProvider>
+      <PaperProvider>
+        <Stack>
+          <Stack.Screen name="index" options={{ title: "Home" }} />
+        </Stack>
+      </PaperProvider>
     </SafeAreaProvider>
   );
 };
